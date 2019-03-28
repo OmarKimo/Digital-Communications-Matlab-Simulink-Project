@@ -1,5 +1,21 @@
 # ELC325 Project
 
+## _Common Reproducing Steps_
+
+1. Open **_Matlab_** (with any way you choose)
+2. Open **_Simulink_** by typing "simulink" -without quotes- in the command window or by clicking on **_Simulink_** Button in **Home** Tab.
+3. Create **Blank Model** in **New** Tab.
+4. Add the necessary blocks by typing the name of it on the blank window.
+    - **Modulator** & **Demodulator** for chosen scheme.
+    - **AWGN Channel**.
+    - Two **constellation diagrams** for plotting the symbols at the transmitter and receiver.
+    - **Error rate calculation**.
+    - **Display** for BER.
+    - **To Workspace** block for generating the BER-vs-SNR figures.
+    - Connect the blocks in the way shown in [Blocks](/Blocks) folder.
+5. h
+6. h
+
 ## **BPSK**
 
 * ###  Description
