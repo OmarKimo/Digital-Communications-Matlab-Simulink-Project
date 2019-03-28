@@ -21,16 +21,22 @@
 10. In **To Workspace** : Set **Limit data points to last** to _2_, set **Save format** to **Array**, and **Save 2-D signals as 2-D array**.
 11. Save the model (by clicking on the **Save** button or by using the shortcut **_Ctrl+S_**) with any name and location you choose.
 12. Click on **Run** Button to produce the scatter plots.
-13. In the **AWGN Channel**: Set **Eb/No (dB)** to _Eb/No_ to be able to produce **BER** figure.
+13. In the **AWGN Channel** : Set **Eb/No (dB)** to _Eb/No_ to be able to produce **BER** figure.
 14. **_Don't forget to Save_**.
 15. Type **bertool** in the **command window** then click **_Enter_**.
+16. In **Theoritical** tab : choose the specific **Modulation Type** you are using with **Modulation Order** you are using, then click **Plot**.
+17. In **Monte Carlo** tab : Set the **Eb/No range** to _-10:1:10_.
+18. Choose the model you are using and previously saved in **Simulation MATLAB File or Simulink model** tab.
+19. Set **BER variable name** to the name of **To Workspace** block in your model (default: _simout_, mine: _ber_).
+20. Set **Number of bits** to _1e4_.
+21. Click **Run** to produce the **BER** figure.
 
 ## **BPSK**
 
 * ###  Description
         BPSK is the simplest (Binary) form of phase shift keying (PSK).
         It uses two phases which are separated by 180° and so can also be termed 2-PSK.
-* ###  Reproducing Steps
+* ###  Additional Reproducing Steps
 * ###  Scatter Plots
 * ###  BER Performance figure
 
@@ -40,7 +46,7 @@
         Quadrature phase-shift keying (QPSK) is one of PSK forms.
         QPSK uses four points on the constellation diagram, equispaced around a circle.
         With four phases, QPSK can encode two bits per symbol to minimize the bit error rate (BER) — sometimes misperceived as twice the BER of BPSK.
-* ###  Reproducing Steps
+* ###  Additional Reproducing Steps
 * ###  Scatter Plots
 * ###  BER Performance figure
 
@@ -50,7 +56,7 @@
         Frequency-shift keying (FSK) is a frequency modulation scheme in which digital information is transmitted through discrete frequency changes of a carrier signal.
         The simplest FSK is binary FSK (BFSK) which I have used.
         BFSK uses a pair of discrete frequencies to transmit binary (0s and 1s) information. With this scheme, the "1" is called the mark frequency and the "0" is called the space frequency.
-* ###  Reproducing Steps
+* ###  Additional Reproducing Steps
 * ###  Scatter Plots
 * ###  BER Performance figure
 
@@ -63,7 +69,7 @@
         Since in digital telecommunications the data is usually binary, the number of points in the grid is usually a power of 2 (2, 4, 8, …).
         Since QAM is usually square, some of these are rare — the most common forms are 16-QAM, 64-QAM and 256-QAM.
         So this (QAM-16) is one of the most common forms of QAM.
-* ###  Reproducing Steps
+* ###  Additional Reproducing Steps
 * ###  Scatter Plots
 * ###  BER Performance figure
 
@@ -71,6 +77,6 @@
 
 * ###  Description
         QAM-64 is one of the most common forms of QAM.
-* ###  Reproducing Steps
+* ###  Additional Reproducing Steps
 * ###  Scatter Plots
 * ###  BER Performance figure
