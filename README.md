@@ -38,6 +38,9 @@
     BPSK is the simplest (Binary) form of phase shift keying (PSK).<br>It uses two phases which are separated by 180° and so can also be termed 2-PSK.<br>
 
 - ###  Additional Reproducing Steps
+  - Add **BPSK Modulator Baseband** and **BPSK Demodulator Baseband** blocks.
+  - In the **Random Integer Generator** : Set **Set Size** to _2_.
+  - In **BPSK Modulator Baseband** and **BPSK Demodulator Baseband** : Set the **Phase offset** to _0_.
 - ###  Scatter Plots
     **Before Noise** figure is the plot of symbols at transmitter, and **After Noise** figure is the plot of symbols at receiver:
 
@@ -56,6 +59,9 @@
     With four phases, QPSK can encode two bits per symbol to minimize the bit error rate (BER) — sometimes misperceived as twice the BER of BPSK.<br>
 
 - ###  Additional Reproducing Steps
+  - Add **QPSK Modulator Baseband** and **BPSK Demodulator Baseband** blocks.
+  - In the **Random Integer Generator** : Set **Set Size** to _4_.
+  - In **QPSK Modulator Baseband** and **QPSK Demodulator Baseband** : Set the **Phase offset** to _$\pi$/4_.
 - ###  Scatter Plots
     **Before Noise** figure is the plot of symbols at transmitter, and **After Noise** figure is the plot of symbols at receiver:
 
@@ -75,6 +81,9 @@
     With this scheme, the "1" is called the mark frequency and the "0" is called the space frequency.<br>
 
 - ###  Additional Reproducing Steps
+  - Add **M-FSK Modulator Baseband** and **M-FSK Demodulator Baseband** blocks.
+  - In the **Random Integer Generator** : Set **Set Size** to _2_.
+  - In **M-FSK Modulator Baseband** and **M-FSK Demodulator Baseband** : Set the **M-ary Number** to _2_.
 - ###  Scatter Plots
     **Before Noise** figure is the plot of symbols at transmitter, and **After Noise** figure is the plot of symbols at receiver:
 
@@ -96,6 +105,13 @@
     So this (QAM-16) is one of the most common forms of QAM.<br>
 
 - ###  Additional Reproducing Steps
+  - Add **Rectangular QAM Modulator Baseband** and **Rectangular QAM Demodulator Baseband** blocks.
+  - In the **Random Integer Generator** : Set **Set Size** to _16_.
+  - In **Rectangular QAM Modulator Baseband** and **Rectangular QAM Demodulator Baseband** :
+    - Set the **M-ary Number** to _16_.
+    - Set the **Normalization method** to **Average Power**.
+    - Set the **Phase offset** to _0_.
+    - Set the **Average Power** to _1_.
 - ###  Scatter Plots
     **Before Noise** figure is the plot of symbols at transmitter, and **After Noise** figure is the plot of symbols at receiver:
 
@@ -110,6 +126,13 @@
 - ###  Description
         QAM-64 is one of the most common forms of QAM.
 - ###  Additional Reproducing Steps
+  - Add **Rectangular QAM Modulator Baseband** and **Rectangular QAM Demodulator Baseband** blocks.
+  - In the **Random Integer Generator** : Set **Set Size** to _64_.
+  - In **Rectangular QAM Modulator Baseband** and **Rectangular QAM Demodulator Baseband** :
+    - Set the **M-ary Number** to _64_.
+    - Set the **Normalization method** to **Average Power**.
+    - Set the **Phase offset** to _0_.
+    - Set the **Average Power** to _1_.
 - ###  Scatter Plots
     **Before Noise** figure is the plot of symbols at transmitter, and **After Noise** figure is the plot of symbols at receiver:
 
