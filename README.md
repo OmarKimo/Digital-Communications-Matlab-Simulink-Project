@@ -40,9 +40,11 @@
 - ###  Additional Reproducing Steps
 - ###  Scatter Plots
     **Before Noise** figure is the plot of symbols at transmitter, and **After Noise** figure is the plot of symbols at receiver:
+
     ![BPSK_ScatterPlots](/Scatter&#32;Plots/BPSK_Scatter.png)
 - ###  BER Performance figure
     The **theoretical-exact0** curve is the Theoretical (Exact), and **simulation0** curve is for the simulation of the model:
+
     ![BPSK_BER](BER&#32;Figures/BPSK_BER.png)
 
 ## **QPSK**
@@ -56,9 +58,11 @@
 - ###  Additional Reproducing Steps
 - ###  Scatter Plots
     **Before Noise** figure is the plot of symbols at transmitter, and **After Noise** figure is the plot of symbols at receiver:
+
     ![QPSK_ScatterPlots](/Scatter&#32;Plots/QPSK_Scatter.png)
 - ###  BER Performance figure
     The **theoretical-exact0** curve is the Theoretical (Exact), and **simulation0** curve is for the simulation of the model:
+
     ![QPSK_BER](BER&#32;Figures/QPSK_BER.png)
 
 ## **FSK**
@@ -73,9 +77,11 @@
 - ###  Additional Reproducing Steps
 - ###  Scatter Plots
     **Before Noise** figure is the plot of symbols at transmitter, and **After Noise** figure is the plot of symbols at receiver:
+
     ![FSK_ScatterPlots](/Scatter&#32;Plots/FSK_Scatter.png)
 - ###  BER Performance figure
     The **theoretical-exact0** curve is the Theoretical (Exact), and **simulation0** curve is for the simulation of the model:
+
     ![FSK_BER](BER&#32;Figures/FSK_BER.png)
 
 ## **QAM 16**
@@ -92,9 +98,11 @@
 - ###  Additional Reproducing Steps
 - ###  Scatter Plots
     **Before Noise** figure is the plot of symbols at transmitter, and **After Noise** figure is the plot of symbols at receiver:
+
     ![QAM16_ScatterPlots](/Scatter&#32;Plots/QAM16_Scatter.png)
 - ###  BER Performance figure
     The **theoretical-exact0** curve is the Theoretical (Exact), and **simulation0** curve is for the simulation of the model:
+
     ![QAM16_BER](BER&#32;Figures/QAM16_BER.png)
 
 ## **QAM 64**
@@ -104,7 +112,9 @@
 - ###  Additional Reproducing Steps
 - ###  Scatter Plots
     **Before Noise** figure is the plot of symbols at transmitter, and **After Noise** figure is the plot of symbols at receiver:
+
     ![QAM64_ScatterPlots](/Scatter&#32;Plots/QAM64_Scatter.png)
 - ###  BER Performance figure
     The **theoretical-exact0** curve is the Theoretical (Exact), and **simulation0** curve is for the simulation of the model:
+
     ![QAM64_BER](BER&#32;Figures/QAM64_BER.png)
