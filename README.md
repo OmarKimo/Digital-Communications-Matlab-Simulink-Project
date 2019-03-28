@@ -61,7 +61,7 @@
 - ###  Additional Reproducing Steps
   - Add **QPSK Modulator Baseband** and **BPSK Demodulator Baseband** blocks.
   - In the **Random Integer Generator** : Set **Set Size** to _4_.
-  - In **QPSK Modulator Baseband** and **QPSK Demodulator Baseband** : Set the **Phase offset** to _$\pi$/4_.
+  - In **QPSK Modulator Baseband** and **QPSK Demodulator Baseband** : Set the **Phase offset** to _pi/4_.
 - ###  Scatter Plots
     **Before Noise** figure is the plot of symbols at transmitter, and **After Noise** figure is the plot of symbols at receiver:
 
